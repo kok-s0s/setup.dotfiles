@@ -33,6 +33,9 @@
 " Set order number
 set number
 
+" Enable the relative line numbering
+set relativenumber
+
 " Sets how many lines of history VIM has to remember
 set history=500
 
