@@ -19,8 +19,10 @@ At present, only the most basic configuration is used, which is mainly used for 
 `.bashrc` or `.zshrc`
 
 ```bash
+# 清除命令
 alias cls="clear"
 
+# git 操作的简化
 alias gclone="git clone"
 alias glog="git log"
 alias ginit="git init"
@@ -29,6 +31,20 @@ alias gadd="git add "
 alias gcm="git commit -m "
 alias gp="git push"
 alias gbone="git reset --soft HEAD^"
+
+# 打开当前路径位置
+alias open="nautilus ."
+
+# 根据首字母查找历史命令
+bind '"\e[A": history-search-backward'
+bind '"\e[B": history-search-forward'
+```
+
+`.inputrc`
+
+```bash
+# 输入命令时忽略首字母大小写
+set completion-ignore-case on
 ```
 
 ## Vim
