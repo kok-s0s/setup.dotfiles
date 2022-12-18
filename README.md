@@ -29,7 +29,8 @@ alias ginit="git init"
 alias gall="git add -A"
 alias gadd="git add "
 alias gcm="git commit -m "
-alias gp="git push"
+alias gph="git push"
+alias gpl="git pull"
 alias gbone="git reset --soft HEAD^"
 
 # 打开当前路径位置
