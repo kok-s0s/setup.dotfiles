@@ -1,18 +1,41 @@
-**Equipment** 💻
+# setup.dotfiles
 
-> MacBook Air (M1, 2020)
->
-> RAM 8 GB
->
-> Hard disk 256 GB
->
-> System macOS Monterey 12.3.1
+## Equipment
 
-I tried my best to toss, and there are still many `vim plugs` and `tmux plugs` that are still incompatible under the M1 version;
+### MacBook Air (M1, 2020)
 
-At present, only the most basic configuration is used, which is mainly used for C/Python simple development and server remote connection.
+| Param     | Value        |
+|-----------|--------------|
+| RAM       | 8 GB         |
+| Hard Disk | 256 GB       |
+| System    | 13.0 Ventura |
 
----
+### Surface Laptop 5
+
+| Param     | Value        |
+|-----------|--------------|
+| RAM       | 16 GB        |
+| Hard Disk | 512 GB       |
+| System    | Windows 11   |
+| WSL2      | Ubuntu 20.04 |
+
+### PC
+
+| Param     | Value        |
+|-----------|--------------|
+| RAM       | 32 GB        |
+| Hard Disk | 512 GB       |
+| System 01 | Windows 10   |
+| WSL2      | Ubuntu 20.04 |
+| System 02 | Kail Linux   |
+
+## Docker
+
+### Image
+
+- ubuntu:latest
+- node:latest
+- python:latest
 
 ## System Alias
 
