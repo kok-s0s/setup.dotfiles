@@ -5,7 +5,7 @@
 ### MacBook Air (M1, 2020)
 
 | Param     | Value        |
-|-----------|--------------|
+| --------- | ------------ |
 | RAM       | 8 GB         |
 | Hard Disk | 256 GB       |
 | System    | 13.0 Ventura |
@@ -15,7 +15,7 @@
 ### Surface Laptop 5
 
 | Param     | Value        |
-|-----------|--------------|
+| --------- | ------------ |
 | RAM       | 16 GB        |
 | Hard Disk | 512 GB       |
 | System    | Windows 11   |
@@ -26,7 +26,7 @@
 ### PC
 
 | Param     | Value        |
-|-----------|--------------|
+| --------- | ------------ |
 | RAM       | 32 GB        |
 | Hard Disk | 512 GB       |
 | System 01 | Windows 10   |
@@ -44,10 +44,16 @@
 - python:latest
 
 | Param | Value |
-|-------|-------|
+| ----- | ----- |
 | Shell | Bash  |
 
 ## Terminal (Operating Habits)
+
+Git clone this project
+
+```bash
+git clone https://github.com/kok-s0s/setup.dotfiles.git
+```
 
 Run the following command to synchronize the settings.
 
@@ -155,3 +161,13 @@ alias open="nautilus ."
 - node
 - npm
 - yarn
+
+## Some Tutorials
+
+[The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+
+[Vimtutor -/- kok-s0s](https://kok-s0s.top/index.php/archives/263/)
+
+[openvime](https://www.openvim.com)
+
+[Tmux -/- Wiki](https://github.com/tmux/tmux/wiki/Getting-Started)
