@@ -62,6 +62,16 @@ chmod 777 setup.sh
 ./setup.sh
 ```
 
+## Some Tutorials
+
+[The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+
+[Vimtutor -/- kok-s0s](https://kok-s0s.top/index.php/archives/263/)
+
+[openvime](https://www.openvim.com)
+
+[Tmux -/- Wiki](https://github.com/tmux/tmux/wiki/Getting-Started)
+
 ### Alias
 
 `.bashrc`
@@ -123,6 +133,8 @@ alias open="nautilus ."
   - vscode-pdf
   - WakaTime
 
+[.vsocde/extensions.json](./.vscode/extensions.json)
+
 ### C++ (GUI/SDK)
 
 - clang-format
@@ -161,13 +173,3 @@ alias open="nautilus ."
 - node
 - npm
 - yarn
-
-## Some Tutorials
-
-[The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
-
-[Vimtutor -/- kok-s0s](https://kok-s0s.top/index.php/archives/263/)
-
-[openvime](https://www.openvim.com)
-
-[Tmux -/- Wiki](https://github.com/tmux/tmux/wiki/Getting-Started)
