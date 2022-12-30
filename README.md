@@ -68,7 +68,7 @@ chmod 777 setup.sh
 
 [Vimtutor -/- kok-s0s](https://kok-s0s.top/index.php/archives/263/)
 
-[openvime](https://www.openvim.com)
+[openvim](https://www.openvim.com)
 
 [Tmux -/- Wiki](https://github.com/tmux/tmux/wiki/Getting-Started)
 
