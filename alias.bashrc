@@ -17,3 +17,6 @@ alias gbone="git reset --soft HEAD^"
 
 # You can use the Files app to open the folder at the current path.
 alias open="nautilus ."
+
+# c++ code format(Google Style)
+alias cxxcodeformat="clang-format -style=Google -dump-config > .clang-format"
