@@ -5,7 +5,7 @@
 ### MacBook Air (M1, 2020)
 
 | Param     | Value        |
-| --------- | ------------ |
+|-----------|--------------|
 | RAM       | 8 GB         |
 | Hard Disk | 256 GB       |
 | System    | 13.0 Ventura |
@@ -15,7 +15,7 @@
 ### Surface Laptop 5
 
 | Param     | Value        |
-| --------- | ------------ |
+|-----------|--------------|
 | RAM       | 16 GB        |
 | Hard Disk | 512 GB       |
 | System    | Windows 11   |
@@ -26,7 +26,7 @@
 ### PC
 
 | Param     | Value        |
-| --------- | ------------ |
+|-----------|--------------|
 | RAM       | 32 GB        |
 | Hard Disk | 512 GB       |
 | System 01 | Windows 10   |
@@ -44,7 +44,7 @@
 - python:latest
 
 | Param | Value |
-| ----- | ----- |
+|-------|-------|
 | Shell | Bash  |
 
 ## Terminal (Operating Habits)
@@ -80,6 +80,7 @@ chmod 777 setup.sh
 # some more common aliases
 alias cls="clear"
 alias md="mkdir"
+alias new="touch"
 
 # some more git aliases
 alias gclone="git clone"
@@ -97,6 +98,9 @@ alias open="nautilus ."
 
 # c++ code format(Google Style)
 alias cxxcodeformat="clang-format -style=Google -dump-config > .clang-format"
+
+# Set the script execution permission to 755
+alias c775="chmod 755"
 ```
 
 ### Vim

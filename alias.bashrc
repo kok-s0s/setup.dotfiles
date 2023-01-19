@@ -3,6 +3,7 @@
 # some more common aliases
 alias cls="clear"
 alias md="mkdir"
+alias new="touch"
 
 # some more git aliases
 alias gclone="git clone"
@@ -20,3 +21,6 @@ alias open="nautilus ."
 
 # c++ code format(Google Style)
 alias cxxcodeformat="clang-format -style=Google -dump-config > .clang-format"
+
+# Set the script execution permission to 755
+alias c775="chmod 755"
