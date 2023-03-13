@@ -39,9 +39,7 @@
 
 ### Image
 
-- ubuntu:latest
-- node:latest
-- python:latest
+- [kokick/dev-env:latest](https://hub.docker.com/repository/docker/kokick/dev-env/tags?page=1&ordering=last_updated)
 
 | Param | Value |
 |-------|-------|
@@ -58,7 +56,7 @@ git clone https://github.com/kok-s0s/setup.dotfiles.git
 Run the following command to synchronize the settings.
 
 ```bash
-chmod 777 setup.sh
+chmod 755 setup.sh
 ./setup.sh
 ```
 
@@ -122,7 +120,7 @@ alias c775="chmod 755"
 - Vim
 - Git
 - Editor - VSCode
-- VSCode Extensions (only for equipment)
+- VSCode Extensions
   - Code Translate
   - CodeSnap
   - Dev Containers
