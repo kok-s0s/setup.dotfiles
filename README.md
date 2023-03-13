@@ -5,7 +5,7 @@
 ### MacBook Air (M1, 2020)
 
 | Param     | Value        |
-|-----------|--------------|
+| --------- | ------------ |
 | RAM       | 8 GB         |
 | Hard Disk | 256 GB       |
 | System    | 13.0 Ventura |
@@ -15,7 +15,7 @@
 ### Surface Laptop 5
 
 | Param     | Value        |
-|-----------|--------------|
+| --------- | ------------ |
 | RAM       | 16 GB        |
 | Hard Disk | 512 GB       |
 | System    | Windows 11   |
@@ -26,7 +26,7 @@
 ### PC
 
 | Param     | Value        |
-|-----------|--------------|
+| --------- | ------------ |
 | RAM       | 32 GB        |
 | Hard Disk | 512 GB       |
 | System 01 | Windows 10   |
@@ -39,10 +39,10 @@
 
 ### Image
 
-- [kokick/dev-env:latest](https://hub.docker.com/repository/docker/kokick/dev-env/tags?page=1&ordering=last_updated)
+- [kokick/code:latest](https://hub.docker.com/repository/docker/kokick/code/tags?page=1&ordering=last_updated)
 
 | Param | Value |
-|-------|-------|
+| ----- | ----- |
 | Shell | Bash  |
 
 ## Terminal (Operating Habits)

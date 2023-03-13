@@ -1,19 +1,19 @@
 #!/bin/bash
 path=`pwd`
-cd ..
 echo "sript path = $path"
 
 cd ~
 
-if [ ! -e ".bashrc" ]; then
-  echo "create a .bashrc file"
-  touch .bashrc
-fi
-
 if [ -e ".bashrc" ]; then
   echo "add kok-s0s's aliases to this dev environment"
-  cat $path/alias.bashrc >> ~/.bashrc
+  cat $path/alias.rc >> ~/.bashrc
   . ~/.bashrc
+fi
+
+if [ -e ".zshrc" ]; then
+  echo "add kok-s0s's aliases to this dev environment"
+  cat $path/alias.rc >> ~/.zshrc
+  . ~/.zshrc
 fi
 
 if [ -e ".vimrc" ]; then
