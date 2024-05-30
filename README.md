@@ -3,7 +3,7 @@
 ## Equipment
 
 | Param         |      MacBook Air (M1, 2020)      | Surface Laptop 5 |      PC      |
-| ------------- | :------------------------------: | :--------------: | :----------: |
+|---------------|:--------------------------------:|:----------------:|:------------:|
 | **RAM**       |               8 GB               |      16 GB       |    32 GB     |
 | **Hard Disk** |              256 GB              |      512 GB      |    512 GB    |
 | **System**    |       macOS Sonoma v14.1.1       |    Windows 11    |  Windows 10  |
@@ -18,6 +18,7 @@
 - [`.vimrc`](./.vimrc)
 - [`.tmux.conf`](./.tmux.conf)
 - [`alias.rc`](./alias.rc)
+- [`$PROFILE`](./_profile.ps1) - [How to use it?](./tutorial.md)
 
 ### Setup Instructions
 

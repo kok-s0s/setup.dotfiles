@@ -8,7 +8,7 @@ echo "Script path = $script_path"
 add_aliases() {
   local rc_file="$1"
   local aliases_file="$script_path/alias.rc"
-  
+
   if [ -e "$rc_file" ]; then
     echo "Adding kok-s0s's aliases to this dev environment"
     # Check if the aliases already exist in the file

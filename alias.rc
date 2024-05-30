@@ -1,26 +1,31 @@
-# some more common aliases
-alias cls="clear"
-alias md="mkdir"
-alias new="touch"
+# Common aliases
+alias cls="clear"  # Clear the terminal
+alias md="mkdir"  # Create a new directory
 
-# some more git aliases
-alias gclone="git clone"
-alias glog="git log"
-alias ginit="git init"
-alias gall="git add -A"
-alias gadd="git add "
-alias gcm="git commit -m "
-alias gph="git push"
-alias gpl="git pull"
-alias gbone="git reset --soft HEAD^"
+# Git aliases
+alias gs="git status"  # Show the git status
+alias gclone="git clone"  # Clone a git repository
+alias glog="git log"  # Show the git log
+alias ginit="git init"  # Initialize a new git repository
+alias gall="git add -A"  # Add all changes to the git repository
+alias gadd="git add "  # Add specific files to the git repository
+alias gcm="git commit -m "  # Commit changes with a message
+alias gph="git push"  # Push changes to the remote repository
+alias gpl="git pull"  # Pull changes from the remote repository
+alias gbone="git reset --soft HEAD^"  # Undo the last commit
+alias gck="git checkout"  # Checkout a branch
+alias gckb="git checkout -b"  # Create and checkout a new branch
+alias gbr="git branch"  # List branches
+alias gconfig="git config" # Configure git settings
+alias gconfigg="git config --global"  # Configure global git settings
 
-# You can use the Files app to open the folder at the current path.
+# Open the current folder using the Files app
 alias open="nautilus ."
 
-# c++ code format(Google Style)
+# C++ code formatting (Google Style)
 alias cxxcodeformat="clang-format -style=Google -dump-config > .clang-format"
 
-# Specify a certain std standard for compilation
+# Specify a certain C++ standard for compilation
 alias g++11="g++ -std=c++11"
 alias g++14="g++ -std=c++14"
 alias g++17="g++ -std=c++17"
